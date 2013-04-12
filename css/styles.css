@@ -1,0 +1,60 @@
+a {
+	color:#a02013;
+}
+body {
+	font-weight:300;
+}
+
+#navSpacer {
+	margin-bottom:40px;
+}
+#footer {
+	background:#f9f9f9;
+	margin-top:20px;
+	padding:15px 0 10px;
+}
+
+
+#logo {
+	background:url(../img/logo.png) no-repeat transparent 0 0;
+	width:332px;
+	height:64px;
+	float:left;
+}
+#navigation {
+	background: url(../img/backgrounds/dark_Tire.png) transparent 0 0;
+	padding:20px 0 25px;
+	border-bottom:5px solid #751f16;
+}
+#navigation h3 {
+	color: #DBD8C5;
+    font-weight: 300;
+    margin: 20px 0 0 -20px;
+	
+}
+#logo_wrapper {
+	margin:0;
+}
+#main_location {
+	margin-left:0;
+}
+
+ul#nav {
+	margin-top:30px;
+}
+ul#nav li {
+	display:inline;
+	margin:0 15px;
+}
+ul#nav li a {
+	background: none repeat scroll 0 0 #DBD8C5;
+	border-radius: 7px 7px 7px 7px;
+	padding: 10px 20px;
+	font-weight:500;
+}
+
+ul#nav li a:hover {
+	background-color:#751F16;
+	color:#DBD8C5;
+	text-decoration:none;
+}
