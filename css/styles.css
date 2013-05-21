@@ -25,6 +25,7 @@ body {
 	background: url(../img/backgrounds/dark_Tire.png) transparent 0 0;
 	padding:20px 0 25px;
 	border-bottom:5px solid #751f16;
+	border-top:5px solid #666;
 }
 #navigation h3 {
 	color: #DBD8C5;
@@ -41,20 +42,58 @@ body {
 
 ul#nav {
 	margin-top:30px;
+	float:right;
 }
 ul#nav li {
 	display:inline;
 	margin:0 15px;
 }
 ul#nav li a {
-	background: none repeat scroll 0 0 #DBD8C5;
+	background: linear-gradient(0deg, #B8B49D, #EDE8CB 84%) repeat scroll 0 0 #DBD8C5;
 	border-radius: 7px 7px 7px 7px;
 	padding: 10px 20px;
 	font-weight:500;
+}
+.checkin_container {
+	margin:0 auto;
+	width:300px;
+}
+a#checkin_nav {
+    background: none repeat scroll 0 0 #751f16;
+    color: #DBD8C5;
+    height: 28px;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    z-index: 3000;
 }
 
 ul#nav li a:hover {
 	background-color:#751F16;
 	color:#DBD8C5;
 	text-decoration:none;
+	background-image:linear-gradient(0deg, #701006, #A02013 84%);
 }
+
+#utility_nav {
+	position:absolute;
+	top:0;
+	right:40px;
+	background:#666;
+}
+
+#utility_nav ul {
+	margin:0;
+}
+
+#utility_nav ul li {
+	list-style:none;
+	padding:10px 0;
+}
+
+#utility_nav ul li a {
+	color:#fff;
+	padding:0 10px;
+	
+}
+
